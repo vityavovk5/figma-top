@@ -81,9 +81,44 @@ line-height: 19px;
 padding: 24px 38px;
 text-decoration: none;
 text-transform: uppercase;
- 
 }
-.button-form:hover {
+.button-form2 {
+    background: linear-gradient(180deg, #FFB187 0%, #BE5D28 100%);
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.16);
+border-radius: 50px;
+color: #FFFDFC;
+font-weight: bold;
+font-size: 13px;
+line-height: 19px;
+padding: 24px 73px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.button-form3 {
+    background: linear-gradient(180deg, #FFB187 0%, #BE5D28 100%);
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.16);
+border-radius: 50px;
+color: #FFFDFC;
+font-weight: bold;
+font-size: 13px;
+line-height: 19px;
+padding: 24px 87px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.button-form4 {
+    background: linear-gradient(180deg, #FFB187 0%, #BE5D28 100%);
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.16);
+border-radius: 50px;
+color: #FFFDFC;
+font-weight: bold;
+font-size: 13px;
+line-height: 19px;
+padding: 24px 89px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.button-form:hover, .button-form2:hover, .button-form3:hover, .button-form4:hover {
     background: linear-gradient(150deg, #BE5D28  0%, #FFB187 100%);
 }
 .small-text {
@@ -221,4 +256,168 @@ color: #383737;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+#block4 {
+    background-color: #FAFAFA;
+    padding: 115px 0 50px;
+}
+.block4 {
+    width: 1050px;
+    margin: 0 auto;
+}
+.block4-main {
+padding-top: 35px;
+font-weight: 700;
+font-size: 40px;
+line-height: 38px;
+text-align: center;
+color: #383737;
+}
+.block4-description {
+  font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #383737;
+}
+ 
+.block4-top-img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: url(../img/bl4-logo.png) 50% no-repeat;
+}
+.capsules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.sachet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.capsules-img {
+    width: 48%;
+}
+.sachet-img {
+    width: 48%;
+}
+.capsules-text {
+    width: 48%;
+    padding-top: 120px;
+}
+.sachet-text {
+    width: 48%;
+    padding-top: 80px;
+}
+.cream-text {
+    width: 48%;
+    padding-top: 24px;
+}
+.gel-text {
+    width: 48%;
+    padding-top: 100px;
+}
+.bl4-1 {
+    padding-top: 20px;
+}
+.block4-main-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+line-height: 35px;
+color: #964E30
+}
+.block4-desk-text {
+    font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+color: #383737;
+}
+.bottom-50 {
+    margin-bottom: 50px;
+}
+#block5 {
+    background: url(../img/bg-5.jpg) 50% top no-repeat black;
+    padding: 100px 0 100px;
+    text-align: center; 
+}
+.block5 {
+    width: 1120px;
+    margin: 0 auto;
+}
+.block5-top-img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: url(../img/bl4-logo.png) 50% no-repeat;
+}
+.block5-main {
+    padding-top: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .block5-description {
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .white-text {
+        color: white;
+    }
+    .block5-all-text {
+        margin: 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    }
+    .block5-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .block5-result {
+        width: 254px;
+        height: 296px;
+        border: 2px dashed #EDEDED;
+box-sizing: border-box;
+border-radius: 16px;
+    }
+.result-text {
+margin-top: 32px;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.block5-check {
+    margin-top: 17px;
+}
+.percent-text {
+    font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+margin-top: 24px;
+color: #FFFFFF;
+}
+.block5-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+margin-top: 7px;
+color: #FFFFFF;
+
 }
