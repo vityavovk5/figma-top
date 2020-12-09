@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     
@@ -25,10 +26,13 @@
             <img src="img/logo.svg" alt="logo" class="logo">
             <p class="main-text">- целебная сила 4 компонентов быстро<br> избавит <span class="main-text-bolt">от боли в суставах!</span></p>
             <div class="block1Flex">
-                <div>
+                <div class="flex0">
+                    <img src="img/product.png" alt="pack" class="top-product">
+                </div>
+                <div class="flex1">
                     <img src="img/left-pack.png" alt="pack" class="left-pack">
                 </div>
-                <div>
+                <div class="flex2">
                     <img src="img/check.svg" alt="check" class="check">
                     <p class="formula">Научная формула*</p>
                     <p class="block1-description">
@@ -38,7 +42,7 @@
                     <p class="small-text">*100% эффективная формула, доказано клинически
                     </p>
                 </div>
-                <div>
+                <div class="flex3">
                     <img src="img/right-pack.png" alt="pack" class="right-pack">
                 </div>
             </div>
@@ -203,26 +207,26 @@
                 <p class="block5-all-text">В ходе проведенных исследований с участием более чем<br>
                     <span class="text-bold">1500 испытуемых</span> было установлено, что средство:</p>
                 <div class="block5-flex">
-                    <div class="block5-result">
+                    <div class="block5-result result5-1">
                         <p class="result-text">результат</p>
                         <img src="img/block5-check.png" class="block5-check">
                         <p class="percent-text"> На 93%</p>
                         <p class="block5-text">убирает боль<br> и снимает отечность</p>
                     </div>
-                    <div class="block5-result">
+                    <div class="block5-result result5-2">
                         <p class="result-text">результат</p>
                         <img src="img/block5-check.png" class="block5-check">
                         <p class="percent-text"> На 85%</p>
                         <p class="block5-text">восстанавливает хрящевую <br>
                             и суставную ткани</p>
                     </div>
-                    <div class="block5-result">
+                    <div class="block5-result result5-3">
                         <p class="result-text">результат</p>
                         <img src="img/block5-check.png" class="block5-check">
                         <p class="percent-text">На 95%</p>
                         <p class="block5-text">тормозит дегенеративные<br> процессы</p>
                     </div>
-                    <div class="block5-result">
+                    <div class="block5-result result5-4">
                         <p class="result-text">результат</p>
                         <img src="img/block5-check.png" class="block5-check">
                         <p class="percent-text">На 75%</p>
@@ -333,7 +337,7 @@
                         Запускается регенерация на клеточном уровне.
                     </p>
                 </div>
-                <div class="block7-info">
+                <div class="block7-info center-block">
                     <p class="block7-number">03</p>
                     <img src="img/info3.png" class="info-img">
                     <p class="block7-week">4 неделя</p>
@@ -377,8 +381,9 @@
         <div class="block9">
             <div class="block9-flex">
                 <div class="block9-text">
-                    <img src="img/logo2.svg" alt="logo">
+                    <img src="img/logo2.svg" alt="logo" class="logo-2">
                     <p class="gescr">- целебная сила 4 компонентов быстро избавит <span class="text-bold">от боли в суставах!</span></p>
+                    
                     <div class="flex9">
                         <div class="flex9-ico">
                             <img src="img/check-ico.png" alt="">
@@ -387,10 +392,14 @@
                         <p class="block9-dopinfo">
                             Научная формула*
                         </p>
+                        <div class="block9-img-hidden">
+                            <img src="img/product.png" class="product">
+                        </div>
                         <p class="block9-description">
                             из коллагена, витаминов и экстрактов целебных растений 
                             <span class="color-text">вернет здоровье спины и суставов за 4 недели</span>
                         </p>
+                        
                         <a href="#" class="button-form">Заказать Arthron Meridian</a>
                         <p class="small-text">*100% эффективная формула,<br> доказано клинически
                         </p>
@@ -451,6 +460,16 @@
             arrows: true,
             slidesToShow: 1,
           slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 800,
+              settings: {
+                dots: true,
+            arrows: false,
+              }
+            },
+            
+          ]
         });
     </script>
   <style>

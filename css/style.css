@@ -741,6 +741,12 @@ border-bottom: 1px dashed #6BAB47;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.footer-delivery {
-   
+.flex0 {
+    display: none;
+}
+.polotic {
+    width: 50%;
+}
+.block9-img-hidden {
+    display: none;
 }
