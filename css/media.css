@@ -367,34 +367,34 @@
 }
 @media (max-width: 480px) {
     .block1 {
-        width: 320px;
+        width: 290px;
     }
     .block2 {
-        width: 300px;
+        width: 270px;
     }
     .block3 {
-        width: 300px;
+        width: 270px;
     }
     .block4 {
-        width: 300px;
+        width: 270px;
     }
     .block5 {
-        width: 300px;
+        width: 290px;
     }
     .block6 {
-        width: 300px;
+        width: 290px;
     }
     .block7 {
-        width: 300px;
+        width: 290px;
     }
     .block8 {
-        width: 300px;
+        width: 270px;
     }
     .block9 {
-        width: 300px;
+        width: 270px;
     }
     .block10 {
-        width: 300px;
+        width: 290px;
     }
     .flex1 {
         display: none;
@@ -413,10 +413,10 @@
         width: 280px; 
     }
     .top-product {
-        width: 290px;
+        width: 270px;
     }
     .block2-img {
-        width: 290px;
+        width: 270px;
     }
     #block1 {
         background: url(../img/bg-1.jpg) 72% top no-repeat black;
@@ -427,7 +427,7 @@
     }
     .block2-main-text {
         text-align: center;
-        font-size: 37px;
+        font-size: 35px;
     }
     #block3 {
         padding: 40px 10px 0;
@@ -436,22 +436,31 @@
         padding: 40px 10px 50px;
     }
     .bl4-1 {
-        width: 290px;
+        width: 270px;
     }
     .bl4-2 {
-        width: 290px;
+        width: 270px;
     }
     .bl4-3 {
-        width: 290px;
+        width: 270px;
     }
     .bl4-4 {
-        width: 290px;
+        width: 270px;
+    }
+    .block4-desk-text {
+        font-size: 19px; 
     }
     .button-form2 {
-        width: 290px;
+        width: 270px;
+        padding: 24px 55px;
     }
     .button-form3 {
-        width: 290px;
+        width: 270px;
+        padding: 24px 55px;
+    }
+    .button-form4 {
+        width: 270px;
+        padding: 24px 70px;
     }
     .block5-description {
         display: none;
@@ -475,7 +484,7 @@
     }
     .block8-main {
         margin-top: 25px;
-        font-size: 25px;
+        font-size: 21px;
     }
     .flex8-img {
         width: 28%;
@@ -492,15 +501,15 @@
         display: block;
     }
     .logo-2 {
-        width: 290px;
+        width: 270px;
     }
     .product {
-        width: 290px;
+        width: 270px;
     }
     #block9 {
         background: black;
         background: url(../img/bg-9.jpg) 20% top no-repeat black;
-        padding: 25px 0 25px;
+        padding: 25px 10px 25px;
     }
     .gescr {
         font-size: 24px;
@@ -516,5 +525,8 @@
     }
     .footer-img {
         width: 94%;
+    }
+    .button-form {
+        padding: 24px 28px;
     }
 }
