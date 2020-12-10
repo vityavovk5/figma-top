@@ -750,3 +750,94 @@ border-bottom: 1px dashed #6BAB47;
 .block9-img-hidden {
     display: none;
 }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    cursor: pointer;
+}
+.mobile-logo {
+    width: 250px;
+    margin: 0 auto;
+}
+.modal-input {
+    -webkit-backface-visibility: hidden;
+	background: #fff;
+	border: solid 1px #e6eaf3;
+	box-sizing: border-box;
+	border-radius: 24px;
+	outline: 0;
+	padding: 15px 59px;
+	-webkit-appearance: none;
+	outline-offset: 0;
+	width: 100%;
+	text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.modall-buttom {
+    background: linear-gradient(180deg, #FFB187 0%, #BE5D28 100%);
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+    color: #FFFDFC;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 15px 59px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-color: transparent;
+    border-width: 0px;
+}
+.modall-buttom:hover {
+    background: linear-gradient(150deg, #BE5D28  0%, #FFB187 100%);
+}
+.old-prise {
+    text-decoration: line-through;
+    color: black;
+   
+}
+.new-prise {
+    font-size: 26px;
+    font-weight: 700;
+    color: #964E30;
+}
+.prisse {
+    margin-bottom: 15px;
+}
